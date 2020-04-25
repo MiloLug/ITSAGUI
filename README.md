@@ -34,8 +34,6 @@ class Style
                    
     Rebuild Draw for working with positionMap
     Rebuild mouse events for working with positionMap and stateMap, changing Element::hover/press
-    
-    Rebuild ALL for working with attrMap
 
     ???CSS parsing hmmm....
     ?????JSON or HTML parsing...
