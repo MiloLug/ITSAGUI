@@ -21,3 +21,10 @@ class Style
 
     getter/setter styleName
 }
+
+    bool Element::hover
+    bool Element::press
+
+ElementsStore: add window->zIndex->left->top->width->height->elements map
+Rebuild Draw for working with that map
+Rebuild mouse events for working with that map and changing Element::hover/press
