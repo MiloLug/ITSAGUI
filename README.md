@@ -1,6 +1,8 @@
 # ITSAGUI
 ## TODO
 
+REWRITE ALL BECAUSE OF ID
+
 Learn OpenGL, add shadow, color, borders, text....
 
 class StyleContainer {
