@@ -1,7 +1,7 @@
 # ITSAGUI
 ## TODO
 
-style branches:
+Learn OpenGL, add shadow, color, borders, text....
 
 class StyleContainer {
 
@@ -24,7 +24,18 @@ class Style
 
     bool Element::hover
     bool Element::press
+    elemId_t className
 
-    ElementsStore: add window->zIndex->left->top->width->height->elements map
-    Rebuild Draw for working with that map
-    Rebuild mouse events for working with that map and changing Element::hover/press
+    ElementsStore: add window->zIndex->left->top->width->height->elements map "positionMap",
+                   add window->[hovered,pressed]->elements map "stateMap"
+                   add window->className->id->element map "attrMap" (it dnt replace window->id->element !)
+                   add getElementsByClassName()
+                   rename getElement() -> getElementById()
+                   
+    Rebuild Draw for working with positionMap
+    Rebuild mouse events for working with positionMap and stateMap, changing Element::hover/press
+    
+    Rebuild ALL for working with attrMap
+
+    ???CSS parsing hmmm....
+    ?????JSON or HTML parsing...
