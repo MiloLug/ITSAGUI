@@ -1,7 +1,9 @@
 # ITSAGUI
 ## TODO
 
-REWRITE ALL BECAUSE OF ID
+REWRITE ALL BECAUSE OF ID (ip...)
+
+ADD GARBAGE COLLECTOR
 
 Learn OpenGL, add shadow, color, borders, text....
 
